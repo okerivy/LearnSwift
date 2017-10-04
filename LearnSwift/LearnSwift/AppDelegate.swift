@@ -8,6 +8,9 @@
 
 import UIKit
 
+// lihui_MARK: 1, UIApplicationMain 就是程序的入口
+// lihui_MARK: 2, 只有.swift 没有 .h 和 .m 文件, 在swift 中默认全局共享
+// lihui_MARK: 3, 所有的代码, 都包含在 {}中, 默认方法都有一个缩进
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
